@@ -143,3 +143,29 @@ a {
     #67BD99;
     border-radius: 100%;
 }
+
+.card-left {
+    display: none;
+}
+
+.card-right {
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .card-left {
+        display: flex;
+    }
+
+    .card-middle {
+        display: flex;
+    }
+    
+    .card-right {
+        display: flex;
+    }
+
+
+}
