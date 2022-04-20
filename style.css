@@ -21,20 +21,19 @@ body, html {
     height: 700px;
     width: 80%;
     text-align: center;
+
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background: #FFFFFF;
     box-shadow: 0px 40px 40px -20px #3C7B61;
     border-radius: 5px;
+    
 }
+
 
 #closebtn {
     position: absolute;
     top: 15px;
     right: 15px;
-}
-
-form {
-
 }
 
 h3 {
@@ -58,6 +57,7 @@ h3 {
     line-height: 18px;
     height: 60px;
     color: #FFFFFF;
+    margin: 15px;
 }
 
 p {
@@ -70,11 +70,22 @@ p {
     color: #828282;
 }
 
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .item {
+    display: flex;
     background: #F0FFF5;
     border-radius: 5px;
     width: 90%;
+    align-items: center;
 }
+
+
 
 .food-item {
     font-family: 'Montserrat';
@@ -83,7 +94,19 @@ p {
     font-size: 14px;
     line-height: 17px;
     color: #2F463D;
+    
 }
+
+.price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7A8F85;
+    text-align: left;
+}
+
 a {
     font-family: 'Montserrat';
     font-style: normal;
@@ -92,4 +115,5 @@ a {
     line-height: 16px;
     text-decoration-line: underline;
     color: #467A66;
+    text-align: right;
 }
