@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+
+    background: url("https://assets.codepen.io/6060109/ZigZag.png") no-repeat ;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    height: 700px;
+    width: 80%;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px #3C7B61;
+    border-radius: 5px;
+}
+
+#closebtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+form {
+
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #2F463D;
+}
+
+.btn {
+    background: #46A67E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 90%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #828282;
+}
+
+.item {
+    background: #F0FFF5;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.food-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F463D;
+}
+a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #467A66;
+}
